@@ -1,0 +1,92 @@
+Functional Requirements
+-	The solution must have a home page with all information about green energy and carbon footprint
+-	The solution must have a solar panels page that explain everything about solar energy
+-	The solution must have an EV charging page where will be all information about electric vehicle charging
+-	The solution must have a smart home energy page to explain home energy management
+-	The solution must have a carbon calculator page where users can calculate their carbon footprint
+-	The solution must have a login and sign up page for user authentication
+-	The solution must have a profile page where users can manage their account details
+-	The solution must have a consultation booking page where users can schedule session with an expert
+-	The solution must have a installation booking page where users can schedule solar panel or EV charger installation
+-	The solution must have a policies & terms page showing privacy policies, terms and conditions
+-	The solution must have an Accessibility Panel page where users can adjust settings for readability and usability
+-	The solution must allow users to register an account using email and password
+-	The solution must require users to sign the terms and conditions before completing registration
+-	The solution must let users log in securely by completing 2-factor authentication
+-	The solution must let users reset password through email verification
+-	The solution must allow users to update account details, such as name, email and contact
+-	The solution must allow users to delete their account if they dont need it anymore
+-	The solution must send welcome email after user successfully register
+-	The solution must provide a log-out option for users
+-	The system must store user sign-up data in SQL database
+-	The solution must allow users to book consultation with expert
+-	The solution must allow users to schedule solar panel installations
+-	The solution must send confirmational email for bookings
+-	The solution must allow users to reschedule or cancel bookings
+-	The solution must send email reminders before scheduled consultations
+-	The solution must allow users to provide feedback after completing the consultation
+-	The system must store consultation feedback and ratings for improving service
+-	The solution must let users view past visits/quotes
+-	The solution must let users input their energy consumption data
+-	The solution must provide a carbon footprint calculator to estimate environmental impact
+-	The solution must provide visual graphs to show energy trends
+-	The solution must compare energy usage with previous months
+-	The solution must allow users to calculate their carbon footprint based on entered data
+-	The solution must allow users to compare their footprint with standards
+-	The solution must allow users to access information about green energy solutions
+
+Non-Functional Requirements
+-	The navigation bar and footer should be clear and simple to read
+-	 Fonts that are hard to read shouldn’t be used
+-	There should be an image on the home page
+-	There should be an image on the Solar Panels and EV Charging pages
+-	The Carbon Calculator page should have a clear and structured layout for easy use
+-	The booking page should allow many users to book at the same time
+-	The policies should always be update
+-	The terms and conditions should be updated regulary
+-	The register page should have length and formal validation checks on email and password fields
+-	The solution should allow multiple users to register at once without errors
+-	The solution should be able to identifie and differentiate users correctly
+-	The solution should provide accurate carbon footprint calculations base on user input
+-	The solution should allow users to compare their footprint with standard values
+-	The solution should stop users from booking another consultation within 24 hours of a previous one to prevent misuse
+-	The accessibility panel should offer useful options that improove user experience, not unnecessary features
+-	The solution should meet WCAG 2.0 accessibility guidelines
+-	The solution must comply with GDPR regulations to protect user data
+-	The system should have fast response times, ensuring all pages load within 2.5 seconds
+-	The system should be protected against DDOs attacks and unauthorised access
+-	The solution should be easy to maintane and update when needed
+-	The solution should have a fully responsive design so it works well on mobile, tablet, and desktop devices
+-	The system should protect all customer information and ensure it is secure from data breaches
+-	The solution should be stable with no broken pages or faults that prevent users from completing actions
+-	The solution should be scaleble to handle an increasing number of user over time
+-	The solution should function properly accross different web browsers such as Chrome, Safari, Edge, and Firefox
+-	The entire solution should follow a consistent layout, with a clear colour theme and readable text
+-	The solution should have clear headings, buttons, and links to ensre users can easily navigate the website
+-	The solution should use high-quality images that clearly represent Rolsa Technologies and its services
+-	The solution should provide clear error messages when a user enters incorrect details or fails validation during registration
+-	The user interface should be clean and minimilistic, avoiding unnecessary clutter that affects usability
+
+
+
+ Key Performance Indicators (KPIs)
+-	The number of users who register within first 3 months should be at least 500
+-	The number of active users per month after launch should be around 1000
+-	The average logins per day should be about 50
+-	Less than 5% of users should delete their accounts monthly
+-	The number of consultation bookings per week should be at least 20
+-	The number of installation bookings per week should be 15 or more
+-	More than 80% of quotes should be successfully completed
+-	The number of users who use the carbon footprint calculator each month should be 200 or more
+-	The number of users who input their energy data should be at least 150 per month
+-	Half of users or more should return to check their energy usage
+-	At least 10% of users should make use of accessibility settings
+-	Around 5% of users should enable high-contrast mode or change text size
+-	The average time users spend per session should be between 3 and 5 minutes
+-	The page loading time should stay below 2.5 sec
+-	Failed login attempts due to incorrect passwords should be under 2%
+-	No major security breaches like DDoS or hacking incidents should happen
+-	The percentage of consultation ratings with 4 stars or higher should be 75% or more
+-	The number of users giving feedback each month should be 50 or more
+-	The number of customer support inquiries per week should be less than 10.
+
