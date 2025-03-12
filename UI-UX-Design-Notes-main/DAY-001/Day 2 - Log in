@@ -1,0 +1,102 @@
+User Acceptance Criteria
+Layout
+-	Customers can click navigation buttons to go to different pages. The button changes colour to show the current page
+-	Scrolling down lets users click on footer buttons, which will take them to the right page
+-	The navigation bar, footer, and headers must stay the same on all pages so users can find stuff easily
+-	Every page has to have an accessibility icon to let users open settings and apply features
+-	The navigation bar, footer, and accessibility logo all stick to the same colours, theme, and alignment, unless something is clicked.
+
+Home Page
+-	The home page should be visible and let users interact with its features
+-	The page shows info about green energy products and carbon footprint reduction
+-	The carbon calculator button needs to work and take users to the calculator page
+-	The Solar Panels, EV Charging, and Smart Home Energy pages can be accessed directly from links.
+
+Solar Panels Page
+-	The Solar Panels page must be easy to view and use
+-	Customers can read about how solar energy works and why it’s useful
+-	The page has images that help explain solar panels
+-	A “Book Installation” button must let users schedule installation
+-	A “Book Consultation” button lets users ask for expert advice.
+
+EV Charging Page
+-	The EV Charging page must be accessible and interactive
+-	It needs to explain how EV chargers work and where they can be installed
+-	The page shows images so users can understand EV charging better
+-	A “Book Installation” button lets users schedule EV charger installation
+-	A “Book Consultation” button lets users get expert guidance
+
+Smart Home Energy Page
+-	The Smart Home Energy page must be easy to read and fully usable
+-	The page gives info about smart home energy management
+-	It has images and text explaining how smart energy systems work
+-	A “Book Installation” button allows customers to schedule smart home installations
+-	A “Book Consultation” button is there for users who need expert help.
+
+Carbon Calculator Page
+-	Users can interact with the Carbon Calculator page
+-	Users input their energy usage to see their carbon footprint
+-	The calculator displays graphs to show energy usage trends
+-	Users can compare their footprint with standard values.
+
+Consultation Booking Page
+-	The Consultation Booking page must be working and easy to use
+-	Users select a date and time to book a consultation
+-	A confirmation email is sent after booking is complete
+-	If a user tries to book another consultation within 24 hours, an error appears
+-	Users can cancel or reschedule if needed.
+
+Installation Booking Page
+-	Users can interact with the Installation Booking page
+-	Users must select what type of installation they want (solar panel, EV charger, smart home system)
+-	The system blocks unavailable slots so there are no double bookings
+-	A confirmation email must be sent after booking.
+
+Policies & Terms Page
+-	Users can access and view the policies and terms page
+-	The policies must always be updated.
+
+Register Page
+-	The Register page must be visible and interactive
+-	Users must enter their name, email, and password and agree to the terms to sign up
+-	The system checks email format (must have @ symbol) and password strength
+-	If an input is wrong, an error message appears
+-	After signing up, users see a message confirming they can log in.
+
+Login Page
+-	The Login page must be easy to use
+-	Users enter their email and password, and the system verifies the details
+-	If login fails, an error message pops up
+-	A “Sign Up” link must be there for users without an account
+-	A “Forgot Password” link allows users to reset their password using email
+-	After logging in, the user is redirected to their profile page.
+
+Profile Page
+-	The Profile page must be accessible and interactive
+-	A welcome message shows the user’s name at the top
+-	Users must be able to edit details (name, email, password)
+-	Users must be able to delete their account if they want to
+-	Logging out takes the user back to the home page.
+
+Accessibility Page
+-	The Accessibility page must be visible and interactive
+-	Users can click the accessibility icon, change settings (contrast, text size, colour), and save them
+-	The system must remember accessibility settings so they stay applied when the user returns
+
+Hardware, Software, Programming Languages, and Tools to Be Used
+Hardware:
+-	A PC with good specifications to be able to program the solution well
+Software:
+-	Bootstrap Studio - for web development and templates
+-	Visual Studio Code - to program a solution
+-	XAMPP - to host a local server for the solution to run on
+-	Draw.io - for creating flowcharts and diagrams to represent the solution
+-	Excel – helps in creating asset logs
+-	Canva - for creating UI designs, graphics and visual elements for the website
+Programming Languages:
+-	PHP - used for backend 
+-	MySQL – to make an SQL database for the system to save and retrieve information
+Web Development:
+-	HTML - used to create the structure of the web pages
+-	CSS - used to design the layout, theme and styles for the solution
+
