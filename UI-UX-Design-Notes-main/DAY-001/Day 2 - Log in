@@ -1,102 +1,94 @@
-User Acceptance Criteria
-Layout
--	Customers can click navigation buttons to go to different pages. The button changes colour to show the current page
--	Scrolling down lets users click on footer buttons, which will take them to the right page
--	The navigation bar, footer, and headers must stay the same on all pages so users can find stuff easily
--	Every page has to have an accessibility icon to let users open settings and apply features
--	The navigation bar, footer, and accessibility logo all stick to the same colours, theme, and alignment, unless something is clicked.
+Justification of how the recommended solution meets the needs of the client and users:
+The solution will contain consistent layout, and be present on every page, for the navigation bar, footer and accessibility icons. They will always be in the same place, with the same theme, same colours, and naming conventions unless they are clicked which will make them change colour. The navigation bar will be at the top while the footer will be at the bottom. The Aa icon on the top will let users change text size, and the mode icon will let them switch between light and dark mode. This will make the site easier to use for different people - A consistent layout will help users to be aware where the information is located which can increase how fast they reach their destination, and how fast they can find information needed. Consistent colouring will help user identify Rolsa Technnologies’s website and reassure that they are on the same website. 
+There will be a home page that will contain an image with a welcoming message. The home page will also contain sections about Solar Panels,  EV Charging and Smart Home Energy and each section will have a picture,  short description and a “Learn More” button. At the bottom of the page, the Carbon Footprint Calculator section will be located. It will have a short explanation and a button to open the calculator so users can check their energy impact - This design would make it easy for users to understand what the company offers through. An image can help customers understand what the green technology is about as well as entertaining the reader since it would be boring to read just a whole page of text. Moreover, the service sections help users quickly find page that they are looking for. And the carbon footprint calculator would encourage them to be more energy-conscious.
+There will be solar panels page which will contain all information about using solar energy. It will also explain how solar panels work, why they are good and what types of panels are available at Rolsa Technologies. Instead of letting users book an installation directly, the page will have a “Book a Consultation” button which means that users will  have to talk to an expert first before deciding to install solar panels. The option to schedule an installation will be sent to the user on email, only after consultation  – Using this approach, user will have a chance to find all information about solar panels and installation before making decision. By allowing scheduling an installation of solar panels only to those who completed consultation first, helps avoid problems such as picking the wrong system that is not going to be suitable for the house or could cost more or not even work well. It also allows Rolsa Technologies to give personalised service and to be sure that each customer gets the best solar panel for their home.
+There will be EV charging page which will contain all information about EV chargers. It will also explain why it’s useful to charge at home, how much money and time it saves and what types of chargers exist. Like the solar panels page, there will be a “Book a Consultation” button, so users will get advice before booking an installation - ising this logic, users will have a chance to find out all details about EV chargers and how installation works before making decision. By allowing only users who completed a consultation to schedule installation, helps avoid mistakes like picking a charger that might not fit their vehicle or home electrical system. It also gives Rolsa Technologies chance to provide more personalised service, making sure that each customer gets the best EV charging solution for their home.
+There will be Smart Home Energy page which will be about tracking and reducing energy use. It will explain how people can monitor electricity in their home and save power. It will also have a section about the latest green energy technologies. This page will explain how users can measure their energy and lower their carbon footprint, and will have a button that will let user to go to the toll for calculating and tracking energy usage - using this approach, users will have a chance to see how to track energy use and waste less power. By knowing more about smart energy tools, they can find easy ways to save money and make home more efficient. The section on green energy technologies will keep users informed about energy products that are now on market. This page will also help users know how to watch their electricity use and make smarter choices to save power at their homes.
+There will be a carbon footprint calculator page where users will be asked to enter details about their energy use, driving and flights to calculate their carbon footprint. The system will use a formula to calculate emissions and show a total monthly CO2 footprint. It will also provide advice on how to reduce energy waste - using this logic, users will see how their actions affecting environment. After checking results of their footprint, they might look for ways to move to lower emissions. And this might make them start to think about saving energy and wasting less energy.
+There will be a consultation booking page that will allow users to schedule a consultation for solar panels, EV chargers or smart home energy. They will be asked to choose a date, provide their contact details, and choose the service they are interested in (solar panels, EV chargers, or smart home energy). After submitting the booking, they will receive a confirmation email on the email provided – using this logic, users will be able to schedule a consultation for any service through the form. Each input field will have to be validated, making sure that wrong format or incorrect input has been sent to the database. Getting an email confirmation for the user might be very important so that they know that consultation is definitely booked for them.
+There will be installation booking page that will be only available after a consultation. Once the consultation is completed, users will receive an email with a link to book their installation. They will have to select the type of installation, choose a date and confirm their booking. A confirmation email will be sent after the booking is successfully completed – this approach makes sure that only those who had consultation can book an installation because otherwise, it will lead to the mistakes such as choosing system that doesn’t fit to their house. Sending a booking link by email after a consultation is the only way to prevent issue with unnecessary cancellations.
 
-Home Page
--	The home page should be visible and let users interact with its features
--	The page shows info about green energy products and carbon footprint reduction
--	The carbon calculator button needs to work and take users to the calculator page
--	The Solar Panels, EV Charging, and Smart Home Energy pages can be accessed directly from links.
+There will be a profile page where user will be able to see all their bookings and personal details. Logged-in users will be able to view past consultations, energy tracking reports and account settings. If they need to, they can also update their information or delete their account – this approach gives users control over their personal data and bookings that gives the user freedom and trust to our service. It allows them to keep track of consultations and installation and makes it easier to refer back to past services. The abiliy to update details making sure that users’ data is up to date, and means that if user changed an email address and still want to use service he won't be able to then just leave, so this feature definitely has to be implemented, preventing an issues with communication. If the user decides that want to delete an account, they should have a delete option that makes sure that their data is removed from the system, and trust and security will be improved.
+There will be a register page where customers can sign up by entering their name, email, and password and accepting the terms and conditions, which will be linked to the terms and conditions page. They must also agree to the terms and conditions, which will be linked on the page. The system will check if the email and password meet the rules. If the email is already used or the password is too weak, an error message will appear.  If everything is correct, user will see a message saying they can now log in. It will save this information in the SQL database. There will also be a link to login on the page – the registration form doesn’t have to include lots of data, as company doesn’t need too much data on the user. Length check helps the customer to have more secure password that can protect them from attacks in the future, while presence check helps the system to not get non-values in the system. Saving the information into the SQL is crucial as it is used to retrieve data when logging in.
+There will be a login page where users can enter their email and password to sign in, with their details being fetched from the SQL database. If they forget their password, they can click on forgot password, enter their email and get a reset link by email. There will also be a link to register for new users. Admins and employees will have accounts already made and will be able to reset their passwords if needed. If the user enters the wrong details, an error message will appear. After logging in, the register and login buttons will disappear and be replaced by a log out option – the only way to allow only registered users to log in is to fetch the information from the SQL database. Sometimes human errors can occur, so the option ‘forgot password’ should be always available in the log in page. In case of any errors, users will determine on what to do by following a  clear error messages. If the log in and sign up options will disappear and only the option to log out is available, it will help customers visually identify if they are logged in or not.
+The accessibility panel will be on every page and will help users adjust how the website looks. The Aa icon will change text size and the mode icon will switch between light and dark mode. The website will remember these settings, so users don’t have to change them every time they visit – the accessibility panel should always be available to make the website more user-friendly attract a wider range of users and increase traffic. Some users may have difficulty reading small text or prefer dark mode. Making sure that these saves are saved prevents an issue that after going to another page user has to apply these settings again. If savings are saved, website becoming much more convenient to use. 
+There will be a policy page which will contain the most up to date policy - this can help to build trust by making policies transparent and accessible to everyone
+There will be a terms and conditions page that will contain the most up to date terms and conditions – by providing this information clearly, users can choose whether they feel comfortable using this website and sharing their details
+The website will also keep user data safe. Passwords will be encrypted, and all user activities (bookings, tracking and settings) will be stored in a database -Protecting personal data from unauthorised access is the goal number one. Encrypting passwords is making sure that data that may be exposed to passwords is still unreadable. Storing user activities in a database is the only option to allow users to access their consultation history, energy tracking report and settings anytime.
 
-Solar Panels Page
--	The Solar Panels page must be easy to view and use
--	Customers can read about how solar energy works and why it’s useful
--	The page has images that help explain solar panels
--	A “Book Installation” button must let users schedule installation
--	A “Book Consultation” button lets users ask for expert advice.
+Justification of how potential risks will be mitigated
+Homepage:
+• The page doesn’t load - Test the pages for this function and make sure there is nothing that is increasing the time of response
+• Green energy information is outdated - Update content every 3 months to make sure it’s update
+• The carbon footprint button doesn’t work - The button will be tested before deployment
+• Images don’t load - The website will be tested to ensure all images are properly stored and displayed
+• The navigation bar is unclear - The navigation will be designed in a simple way so users can easily find what they need
 
-EV Charging Page
--	The EV Charging page must be accessible and interactive
--	It needs to explain how EV chargers work and where they can be installed
--	The page shows images so users can understand EV charging better
--	A “Book Installation” button lets users schedule EV charger installation
--	A “Book Consultation” button lets users get expert guidance
+Solar Panels Page:
+• The page doesn’t load – Test the pages for this function and make sure there is nothing that is increasing the time of response
+• Information is outdated – Update content every 3 months to make sure it’s update
+• The images don’t appear – The website will be tested to ensure all images are properly stored and displayed
+• The consultation button doesn’t work – The button will be tested before launch to make sure it correctly redirects users
 
-Smart Home Energy Page
--	The Smart Home Energy page must be easy to read and fully usable
--	The page gives info about smart home energy management
--	It has images and text explaining how smart energy systems work
--	A “Book Installation” button allows customers to schedule smart home installations
--	A “Book Consultation” button is there for users who need expert help.
+EV Charging Page:
+• The page doesn’t load - Test the pages for this function and make sure there is nothing that is increasing the time of response 
+• Information is outdated - Update content every 3 months to make sure it’s updated 
+• The images don’t load - The website will be tested to ensure all images are properly stored and displayed
+• The consultation button doesn’t work - The button will be tested before launch to make sure it correctly redirects users
 
-Carbon Calculator Page
--	Users can interact with the Carbon Calculator page
--	Users input their energy usage to see their carbon footprint
--	The calculator displays graphs to show energy usage trends
--	Users can compare their footprint with standard values.
+Smart Home Energy Page:
+• The page doesn’t load – Test the pages for this function and make sure there is nothing that is increasing the time of response 
+• Information is outdated – Update content every 3 months to make sure it’s updated 
+• No clear comparisons – The page will include easy to read comparisons between smart energy and traditional energy 
+• The tracking tool link doesn’t work – The link will be tested before launch to ensure users can access the tool
+  
+Carbon Calculator Page:
+• The calculator doesn’t load - The tool will be tested multiple times to make sure it works properly before launch
+• Users enter incorrect data - Input validation will be added to ensure users enter correct details
+• The calculator gives wrong results - The formula will be tested to make sure that calculations are right
+• No validation for missing fields -  Required fields will be marked, and users will be notified if any are left empty
 
-Consultation Booking Page
--	The Consultation Booking page must be working and easy to use
--	Users select a date and time to book a consultation
--	A confirmation email is sent after booking is complete
--	If a user tries to book another consultation within 24 hours, an error appears
--	Users can cancel or reschedule if needed.
+Sign-Up Page:
+• The page doesn’t load – Test the pages for this function and make sure there is nothing that is increasing the time of response 
+• Users enter an already registered email – Display messages saying the email is already used and offer for them to reset their password or login
+• Weak passwords not accepted – The page will include a lengths check to help users create a strong password
+• Users don’t receive a confirmation email – Email functionality will be tested to ensure confirmation emails are sent properly
+• The terms and conditions checkbox doesn’t work – The checkbox will be tested to ensure users can complete registration
+• Registration details aren’t saved correctly - The database will be tested to confirm that user details are stored properly
 
-Installation Booking Page
--	Users can interact with the Installation Booking page
--	Users must select what type of installation they want (solar panel, EV charger, smart home system)
--	The system blocks unavailable slots so there are no double bookings
--	A confirmation email must be sent after booking.
+Login Page:
+• The page doesn’t load – The page will be optimized for quick access and tested on different devices.
+• Users enter the wrong password too many times – A lockout system with a reset option will be added to prevent unauthorized access.
+• The forgot password link doesn’t work – The link will be tested before launch to ensure it redirects users correctly.
+• Two-factor authentication (2FA) fails – The system will be tested to ensure verification codes are sent correctly.
+• The login form allows incorrect entries – Error messages will guide users if they enter incorrect details.
 
-Policies & Terms Page
--	Users can access and view the policies and terms page
--	The policies must always be updated.
+Profile Page:
+• The page doesn’t load – The website will be optimized to make sure the profile page opens quickly
+• Users can’t delete their account – A delete account option will be added to allow users to remove their data
+• The log-out option doesn’t work – The log-out function will be tested to ensure users can log out without issues
 
-Register Page
--	The Register page must be visible and interactive
--	Users must enter their name, email, and password and agree to the terms to sign up
--	The system checks email format (must have @ symbol) and password strength
--	If an input is wrong, an error message appears
--	After signing up, users see a message confirming they can log in.
+Consultation Booking Page:
+• The page doesn’t load – The system will be tested to ensure quick access to the booking page
+• The booking form doesn’t submit – The form will be tested before launch to confirm that bookings are processed correctly
+• Users don’t receive confirmation emails – The email system will be tested to ensure users receive booking confirmations
+• Double bookings occur – The system will check for scheduling conflicts to prevent overlapping appointments
+• Users can’t cancel or reschedule – A cancellation and reschedule option will be added to avoid empty slots
 
-Login Page
--	The Login page must be easy to use
--	Users enter their email and password, and the system verifies the details
--	If login fails, an error message pops up
--	A “Sign Up” link must be there for users without an account
--	A “Forgot Password” link allows users to reset their password using email
--	After logging in, the user is redirected to their profile page.
+Installation Booking Page:
+• The page doesn’t load – The page will be tested to ensure it loads correctly
+• No available dates – The system will only show available dates to prevent scheduling issues
+• Confirmation email is not sent – The email system will be tested to ensure confirmations are sent properly
+• The rescheduling option doesn’t work – The reschedule function will be tested to confirm that changes are applied correctly
 
-Profile Page
--	The Profile page must be accessible and interactive
--	A welcome message shows the user’s name at the top
--	Users must be able to edit details (name, email, password)
--	Users must be able to delete their account if they want to
--	Logging out takes the user back to the home page.
+Policies & Terms Page:
+• The page doesn’t load – The page will be tested to ensure users can access policies and terms.
+• The text is too complex – The content will be written in a simple way so users can easily understand their rights.
+• Information is outdated – The policies will be updated regularly to reflect current regulations.
 
-Accessibility Page
--	The Accessibility page must be visible and interactive
--	Users can click the accessibility icon, change settings (contrast, text size, colour), and save them
--	The system must remember accessibility settings so they stay applied when the user returns
-
-Hardware, Software, Programming Languages, and Tools to Be Used
-Hardware:
--	A PC with good specifications to be able to program the solution well
-Software:
--	Bootstrap Studio - for web development and templates
--	Visual Studio Code - to program a solution
--	XAMPP - to host a local server for the solution to run on
--	Draw.io - for creating flowcharts and diagrams to represent the solution
--	Excel – helps in creating asset logs
--	Canva - for creating UI designs, graphics and visual elements for the website
-Programming Languages:
--	PHP - used for backend 
--	MySQL – to make an SQL database for the system to save and retrieve information
-Web Development:
--	HTML - used to create the structure of the web pages
--	CSS - used to design the layout, theme and styles for the solution
-
+Accessibility Panel Page:
+• The accessibility features do not work – The panel will be tested to ensure all functions operate as expected.
+• The accessibility icon doesn’t appear – The website will be checked to confirm that the icon is visible on all pages.
+• Text resizing doesn’t work – The function will be tested to ensure it adjusts text size properly.
+• High-contrast mode doesn’t save – The website will store user settings so they don’t have to adjust them every visit.
+• The page doesn’t load – The website will be tested to ensure accessibility settings work without delays.
