@@ -92,3 +92,7 @@ Accessibility Panel Page:
 • Text resizing doesn’t work – The function will be tested to ensure it adjusts text size properly.
 • High-contrast mode doesn’t save – The website will store user settings so they don’t have to adjust them every visit.
 • The page doesn’t load – The website will be tested to ensure accessibility settings work without delays.
+
+Justification of how relevant regulatory guidelines and legal requirements will be addressed:
+The relevant regulatory guidelines will be met by incorporating an accessibility panel to follow the WCAG 2.1 guidelines which provide accessibility and usability for people on different devices, and people with different disabilities. Users will be able to select accessibility features, and it will be saved using their IP in the database. GDPR guidelines will be followed by prompting the user to accept or deny cookies and having a terms and conditions page which will explain to users and customers how the Rolsa Technologies uses data to enhance the user’s experience. When customer’s try to sign up for the website, they will have to accept the terms and conditions before they can sign up.
+
