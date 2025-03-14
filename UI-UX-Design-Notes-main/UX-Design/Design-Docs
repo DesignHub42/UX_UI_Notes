@@ -1,92 +1,18 @@
-Functional Requirements
--	The solution must have a home page with all information about green energy and carbon footprint
--	The solution must have a solar panels page that explain everything about solar energy
--	The solution must have an EV charging page where will be all information about electric vehicle charging
--	The solution must have a smart home energy page to explain home energy management
--	The solution must have a carbon calculator page where users can calculate their carbon footprint
--	The solution must have a login and sign up page for user authentication
--	The solution must have a profile page where users can manage their account details
--	The solution must have a consultation booking page where users can schedule session with an expert
--	The solution must have a installation booking page where users can schedule solar panel or EV charger installation
--	The solution must have a policies & terms page showing privacy policies, terms and conditions
--	The solution must have an Accessibility Panel page where users can adjust settings for readability and usability
--	The solution must allow users to register an account using email and password
--	The solution must require users to sign the terms and conditions before completing registration
--	The solution must let users log in securely by completing 2-factor authentication
--	The solution must let users reset password through email verification
--	The solution must allow users to update account details, such as name, email and contact
--	The solution must allow users to delete their account if they dont need it anymore
--	The solution must send welcome email after user successfully register
--	The solution must provide a log-out option for users
--	The system must store user sign-up data in SQL database
--	The solution must allow users to book consultation with expert
--	The solution must allow users to schedule solar panel installations
--	The solution must send confirmational email for bookings
--	The solution must allow users to reschedule or cancel bookings
--	The solution must send email reminders before scheduled consultations
--	The solution must allow users to provide feedback after completing the consultation
--	The system must store consultation feedback and ratings for improving service
--	The solution must let users view past visits/quotes
--	The solution must let users input their energy consumption data
--	The solution must provide a carbon footprint calculator to estimate environmental impact
--	The solution must provide visual graphs to show energy trends
--	The solution must compare energy usage with previous months
--	The solution must allow users to calculate their carbon footprint based on entered data
--	The solution must allow users to compare their footprint with standards
--	The solution must allow users to access information about green energy solutions
-
-Non-Functional Requirements
--	The navigation bar and footer should be clear and simple to read
--	 Fonts that are hard to read shouldn’t be used
--	There should be an image on the home page
--	There should be an image on the Solar Panels and EV Charging pages
--	The Carbon Calculator page should have a clear and structured layout for easy use
--	The booking page should allow many users to book at the same time
--	The policies should always be update
--	The terms and conditions should be updated regulary
--	The register page should have length and formal validation checks on email and password fields
--	The solution should allow multiple users to register at once without errors
--	The solution should be able to identifie and differentiate users correctly
--	The solution should provide accurate carbon footprint calculations base on user input
--	The solution should allow users to compare their footprint with standard values
--	The solution should stop users from booking another consultation within 24 hours of a previous one to prevent misuse
--	The accessibility panel should offer useful options that improove user experience, not unnecessary features
--	The solution should meet WCAG 2.0 accessibility guidelines
--	The solution must comply with GDPR regulations to protect user data
--	The system should have fast response times, ensuring all pages load within 2.5 seconds
--	The system should be protected against DDOs attacks and unauthorised access
--	The solution should be easy to maintane and update when needed
--	The solution should have a fully responsive design so it works well on mobile, tablet, and desktop devices
--	The system should protect all customer information and ensure it is secure from data breaches
--	The solution should be stable with no broken pages or faults that prevent users from completing actions
--	The solution should be scaleble to handle an increasing number of user over time
--	The solution should function properly accross different web browsers such as Chrome, Safari, Edge, and Firefox
--	The entire solution should follow a consistent layout, with a clear colour theme and readable text
--	The solution should have clear headings, buttons, and links to ensre users can easily navigate the website
--	The solution should use high-quality images that clearly represent Rolsa Technologies and its services
--	The solution should provide clear error messages when a user enters incorrect details or fails validation during registration
--	The user interface should be clean and minimilistic, avoiding unnecessary clutter that affects usability
-
-
-
- Key Performance Indicators (KPIs)
--	The number of users who register within first 3 months should be at least 500
--	The number of active users per month after launch should be around 1000
--	The average logins per day should be about 50
--	Less than 5% of users should delete their accounts monthly
--	The number of consultation bookings per week should be at least 20
--	The number of installation bookings per week should be 15 or more
--	More than 80% of quotes should be successfully completed
--	The number of users who use the carbon footprint calculator each month should be 200 or more
--	The number of users who input their energy data should be at least 150 per month
--	Half of users or more should return to check their energy usage
--	At least 10% of users should make use of accessibility settings
--	Around 5% of users should enable high-contrast mode or change text size
--	The average time users spend per session should be between 3 and 5 minutes
--	The page loading time should stay below 2.5 sec
--	Failed login attempts due to incorrect passwords should be under 2%
--	No major security breaches like DDoS or hacking incidents should happen
--	The percentage of consultation ratings with 4 stars or higher should be 75% or more
--	The number of users giving feedback each month should be 50 or more
--	The number of customer support inquiries per week should be less than 10.
-
+Proposal
+The solution will contain consistent layout, and be present on every page, for the navigation bar, footer and accessibility icons. They will always be in the same place, with the same theme, same colours, and naming conventions unless they are clicked which will make them change colour. The navigation bar will be at the top while the footer will be at the bottom. The Aa icon on the top will let users change text size, and the mode icon will let them switch between light and dark mode. This will make the site easier to use for different people.
+There will be a home page that will contain an image with a welcoming message. The home page will also contain sections about Solar Panels,  EV Charging and Smart Home Energy and each section will have a picture,  short description and a “Learn More” button. At the bottom of the page, the Carbon Footprint Calculator section will be located. It will have a short explanation and a button to open the calculator so users can check their energy impact.
+There will be solar panels page which will contain all information about using solar energy. It will also explain how solar panels work, why they are good and what types of panels are available at Rolsa Technologies. Instead of letting users book an installation directly, the page will have a “Book a Consultation” button which means that users will  have to talk to an expert first before deciding to install solar panels. The option to schedule an installation will be sent to the user on email, only after consultation.
+There will be EV charging page which will contain all information about EV chargers. It will also explain why it’s useful to charge at home, how much money and time it saves and what types of chargers exist. Like the solar panels page, there will be a “Book a Consultation” button, so users will get advice before booking an installation.
+There will be Smart Home Energy page which will be about tracking and reducing energy use. It will explain how people can monitor electricity in their home and save power. It will also have a section about the latest green energy technologies. This page will explain how users can measure their energy and lower their carbon footprint, and will have a button that will let user to go to the toll for calculating and tracking energy usage.
+There will be a carbon footprint calculator page where users will be asked to enter details about their energy use, driving and flights to calculate their carbon footprint. The system will use a formula to calculate emissions and show a total monthly CO2 footprint. It will also provide advice on how to reduce energy waste.
+There will be a consultation booking page that will allow users to schedule a consultation for solar panels, EV chargers or smart home energy. They will be asked to choose a date, provide their contact details, and choose the service they are interested in (solar panels, EV chargers, or smart home energy). After submitting the booking, they will receive a confirmation email on the email provided.
+There will be installation booking page that will be only available after a consultation. Once the consultation is completed, users will receive an email with a link to book their installation. They will have to select the type of installation, choose a date and confirm their booking. A confirmation email will be sent after the booking is successfully completed.
+There will be a policy page which will contain the most up to date policy.
+There will be a terms and conditions page that will contain the most up to date terms and conditions.
+There will be a  profile page where user will be able to see all their bookings and personal details. Logged-in users will be able to view past consultations, energy tracking reports and account settings. If they need to, they can also update their information or delete their account.
+There will be a register page where customers can sign up by entering their name, email, and password and accepting the terms and conditions, which will be linked to the terms and conditions page. They must also agree to the terms and conditions, which will be linked on the page. The system will check if the email and password meet the rules. If the email is already used or the password is too weak, an error message will appear.  If everything is correct, user will see a message saying they can now log in. It will save this information in the SQL database. There will also be a link to login on the page.
+There will be a login page where users can enter their email and password to sign in, with their details being fetched from the SQL database. If they forget their password, they can click on forgot password, enter their email and get a reset link by email. There will also be a link to register for new users. Admins and employees will have accounts already made and will be able to reset their passwords if needed. If the user enters the wrong details, an error message will appear. After logging in, the register and login buttons will disappear and be replaced by a log out option.
+The accessibility panel will be on every page and will help users adjust how the website looks. The Aa icon will change text size and the mode icon will switch between light and dark mode. The website will remember these settings, so users don’t have to change them every time they visit.
+There will be a policy page which will contain the most up to date policy.
+There will be a terms and conditions page that will contain the most up to date terms and conditions.
+The website will also keep user data safe. Passwords will be encrypted, and all user activity (bookings, tracking and settings) will be stored in a database.
